@@ -1127,6 +1127,11 @@
   dependencies:
     "@babel/helper-plugin-utils" "^7.16.7"
 
+react-icons@^4.3.1:
+  version "4.3.1"
+  resolved "https://registry.yarnpkg.com/react-icons/-/react-icons-4.3.1.tgz#2fa92aebbbc71f43d2db2ed1aed07361124e91ca"
+  integrity sha512-cB10MXLTs3gVuXimblAdI71jrJx8njrJZmNMEMC+sQu5B/BIOmlsAjskdqpn81y8UBVEGuHODd7/ci5DvoSzTQ==
+
 "@babel/plugin-transform-async-to-generator@^7.16.8":
   version "7.16.8"
   resolved "https://registry.npmjs.org/@babel/plugin-transform-async-to-generator/-/plugin-transform-async-to-generator-7.16.8.tgz#b83dff4b970cf41f1b819f8b49cc0cfbaa53a808"
