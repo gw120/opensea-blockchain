@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\compoments",
+    "\\pages",
+    "\\studio",
+    "\\styles"
   ],
-  "SelectedNode": "\\C:\\Users\\asus\\Source\\Repos\\opensea-blockchain",
+  "SelectedNode": "\\styles\\globals.css",
   "PreviewInSolutionExplorer": false
 }
