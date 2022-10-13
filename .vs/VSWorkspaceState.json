@@ -2,10 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\compoments",
+    "\\lib",
     "\\pages",
-    "\\studio",
-    "\\styles"
+    "\\studio"
   ],
-  "SelectedNode": "\\styles\\globals.css",
+  "SelectedNode": "\\pages\\index.js",
   "PreviewInSolutionExplorer": false
 }
