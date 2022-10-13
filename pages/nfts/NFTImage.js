@@ -1,4 +1,4 @@
-import { IoMdSnow } from 'react-icons/io'
+﻿import { IoMdSnow } from 'react-icons/io'
 import { AiOutlineHeart } from 'react-icons/ai'
 
 
@@ -16,10 +16,14 @@ const NFTImage = ({ selectedNft }) => {
                     <IoMdSnow />
                     <div className={style.likesCounter}>
                         <AiOutlineHeart />
+                        7.77K
                     </div>
                 </div>
             </div>
-
+            <div>
+                {console.log(selectedNft, '🎆')}
+                <img src={selectedNft?.image} className={style.topBar} />
+            </div>
         </div>
     )
 }
