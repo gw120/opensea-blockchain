@@ -110,9 +110,8 @@ const Collection = () => {
 
     // whenever collection id gets updated -> when user routes to collection page
     useEffect(() => {
-        try {
-            fetchCollectionData()
-        } catch { console.error(); }
+        fetchCollectionData()
+
     }, [collectionId])    
 
     console.log(router.query)
