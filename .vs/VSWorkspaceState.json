@@ -2,10 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\compoments",
-    "\\lib",
     "\\pages",
-    "\\studio"
+    "\\pages\\collections",
+    "\\pages\\nfts",
+    "\\sanity-dashboard"
   ],
-  "SelectedNode": "\\pages\\index.js",
+  "SelectedNode": "\\pages\\nfts\\[nftId].js",
   "PreviewInSolutionExplorer": false
 }
