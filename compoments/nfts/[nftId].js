@@ -6,6 +6,7 @@ import { useRouter } from "next/router";
 import NFTImage from '../../components/nft/NFTImage'
 import GeneralDetails from "../../components/nft/GeneralDetails";
 import ItemActivity from '../../components/nft/ItemActivity'
+import Purchase from '../../components/nft/Purchase'
 
 const style = {
     wrapper: `flex flex-col items-center container-lg text-[#e5e8eb]`,
@@ -40,9 +41,7 @@ const Nft = () => {
 
             ; (async () => {
                 const nfts = await nftModule.getAll()
-
                 const selectedNftItem = nfts.find((nft) => nft.id === router.query.nftId)
-
 
                 setSelectedNft(selectedNftItem)
             })()
@@ -82,6 +81,12 @@ const Nft = () => {
                         </div>
                         <div className={style.detailsContainer}>
                             <GeneralDetails selectedNft={selectedNft} />
+                            <Purchase
+                                isListed={router.query.isListed}
+                                selectedNft={selectedNft}
+                                listings={listings}
+                                marketPlaceModule={marketPlaceModule}
+                            />
                         </div>
                     </div>
                     <ItemActivity />
