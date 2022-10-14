@@ -31,7 +31,7 @@ const Nft = () => {
             'https://rinkeby.infura.io/v3/dc57cdded7334a599cf26e3c2dda97a5'
         )
 
-        return sdk.getNFTModule('0xfBFb463C184b93C2d8659fe0311599001217FE68')
+        return sdk.getMarketplaceModule('0x5DC7d152281e7F08585898CdB088E1144a938cA3')
 
     }, [provider])
 
