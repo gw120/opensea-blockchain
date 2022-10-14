@@ -5,6 +5,14 @@ import Hero from '../components/Hero'
 import { useEffect } from 'react'
 import { client } from '../lib/sanityClient'
 import toast, { Toaster } from 'react-hot-toast'
+import {
+    useMetamask,
+    useWalletConnect,
+    useCoinbaseWallet,
+    useNetwork,
+    useAddress,
+    useDisconnect,
+} from '@thirdweb-dev/react';
 
 const style = {
     wrapper: ``,
@@ -14,7 +22,12 @@ const style = {
 }
 
 export default function Home() {
-    const { address, connectWallet } = useWeb3()
+    const connectWithCoinbaseWallet = useCoinbaseWallet();
+    const connectWithMetamask = useMetamask();
+    const connectWithWalletConnect = useWalletConnect();
+    const disconnectWallet = useDisconnect();
+    const address = useAddress();
+    const network = useNetwork();
 
     const welcomeUser = (userName, toastHandler = toast) => {
         toastHandler.success(
@@ -38,7 +51,10 @@ export default function Home() {
                     walletAddress: address,
                 }
 
+                // Insert data to database sanity, or get if it exists
                 const result = await client.createIfNotExists(userDoc)
+                console.log(result)
+                // Call toast
                 welcomeUser(result.userName)
 
             })()
@@ -56,7 +72,7 @@ export default function Home() {
                     <div className={style.walletConnectWrapper}>
                         <button
                             className={style.button}
-                            onClick={() => connectWallet('injected')}
+                            onClick={() => connectWithMetamask()}
                         >
                             Connect Wallet
                         </button>
