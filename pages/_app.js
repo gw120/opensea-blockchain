@@ -17,7 +17,8 @@ function MyApp({ Component, pageProps }) {
             connectors={connectors}
         >
             <Component {...pageProps} />
-        </ThirdwebWeb3Provider>)
+        </ThirdwebWeb3Provider>
+    )
 }
 
 export default MyApp

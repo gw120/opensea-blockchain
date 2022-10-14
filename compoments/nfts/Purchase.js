@@ -57,7 +57,7 @@ const MakeOffer = ({ isListed, selectedNft, listings, marketPlaceModule }) => {
     // if the nft is listed highlight and enable buy button + make offer - if not show list item
     return (
         <div className="flex h-20 w-full items-center rounded-lg border border-[#151c22] bg-[#303339] px-12">
-            <Toaster position="bottom-left" reverseOrder={false} />
+            <Toaster position="top-center" reverseOrder={false} />
             {isListed === 'true' ? (
                 <>
                     <div
