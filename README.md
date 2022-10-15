@@ -1,23 +1,14 @@
-# Next.js + Tailwind CSS Example
+﻿# opensea-blockchain
+OpenSea Blockchain Web 3.0 App with Next.js | Sanity.io | thirdweb
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+🎉https://opensea-blockchain-clone-swart-three.vercel.app🎉
 
-## Deploy your own
+![image](https://user-images.githubusercontent.com/38008294/168606929-d86cd295-57d9-45c3-82ab-92eb86969d70.png)
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+![image](https://user-images.githubusercontent.com/38008294/168607076-291fc494-1694-4575-98de-8c53c1025af9.png)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+![image](https://user-images.githubusercontent.com/38008294/168607141-5809cda8-764d-4e40-b4f2-534655693b89.png)
 
-## How to use
+![image](https://user-images.githubusercontent.com/38008294/168607259-d82c6b66-6dcc-4c5c-9350-fecb1d9962f1.png)
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
-
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-# or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-# or
-pnpm create next-app -- --example with-tailwindcss with-tailwindcss-app
-```
-
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+![image](https://user-images.githubusercontent.com/38008294/168607451-1de3e98d-43de-4ca5-9d7b-7cb51d8cc4c8.png)
